@@ -1,16 +1,157 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TIMF Social Network</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/profile-sidebar.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.css" rel="stylesheet" type="text/css">
-  </head>
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <i class="glyphicon glyphicon-user"></i>
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TIMF Social Network</a>
+    </div>
 
-  <body>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-  </body>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Cautare studenti">
+        <span class="input-group-btn">
+          <button type="submit" class="btn btn-warning">Cauta</button>
+        </span>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Acasa</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meniu <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Editare profil</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Log out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
   
+<div class="container-fluid" style="background-color:#526980;">
+  <div class="row">
+<!-- PROFILE SIDEBAR -->
+    <div class="col-md-4">
+      <div class="container">
+        <div class="row profile">
+          <div class="col-md-4">
+            <div class="profile-sidebar">
+<!--  -->
+              <div class="profile-userpic">
+                <center>
+                <img src="assets/profile.png" alt="">
+              </center>
+              </div>
+<!--  -->
+              <div class="profile-usertitle">
+                <div class="profile-usertitle-name">
+                  John Doe
+                </div>
+                <div class="profile-usertitle-school">
+                  Facultatea de Litere si Stiinte
+                  <br>
+                  Informatica
+                </div>
+                <div class="profile-usertitle-job">
+                  Web Developer
+                </div>
+              </div>
+<!--  -->
+              <div class="profile-userbuttons">
+
+                <button type="button" class="btn btn-danger btn-sm">Message</button>
+              </div>
+<!--  -->
+              <div class="profile-usermenu">
+                <ul class="nav">
+                  <li class="active">
+                    <a href="#">
+                    <i class="glyphicon glyphicon-user"></i>
+                    Profil </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                    <i class="glyphicon glyphicon-education"></i>
+                    Curriculum Vitae </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank">
+                    <i class="glyphicon glyphicon-console"></i>
+                    Skills </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                    <i class="glyphicon glyphicon-flag"></i>
+                    Colegi </a>
+                  </li>
+                </ul>
+              </div>
+<!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+<!-- /PROFILE SIDEBAR -->
+<!-- PROFILE RIGHT -->
+    <div class="col-md-8" style="word-wrap: break-word;">
+      <div class="container-fluid profile-right">
+        <span class="profile-right-title">Profil</span>
+        <div class="well" style="margin-top:10px;">
+          First Name : Jonathan
+
+          Last Name : Smith
+
+          Country : Colombian
+
+          Birthday: 13 July 1991
+
+          Occupation : Bootdey Dev
+
+          Email : jsmith@bootdey.com
+
+          Mobile : (12) 03 7564546
+
+          Phone : 88 (02) 9876543
+        </div>
+      </div>
+
+    </div>
+
+
+      
+    </div>
+<!-- /PROFILE RIGHT -->
+</div>
+
+</body>
 </html>
